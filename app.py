@@ -192,7 +192,7 @@ with st.sidebar:
         "Serp API Key", key="chatbot_serperai_api_key", type="password"
     )
     "[Get an Serper API key (FREE)](https://serper.dev/)"
-    "[View the source code](https://github.com/navneetsingh-cpu/youtube-summarizer)"
+    "[View the source code](https://github.com/navneetsingh-cpu/news-letter)"
     OpenAI.api_key = OPENAI_API_KEY
     os.environ["SERPER_API_KEY"] = SERPER_API_KEY
     os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
